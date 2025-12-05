@@ -45,7 +45,6 @@ fun main() {
         return result2.toInt()
     }
 
-    // Read the input from the `src/Day01.txt` file.
     val input = readInput("Day01")
     part1(input).println()
     part2(input).println()
