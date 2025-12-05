@@ -4,7 +4,7 @@ fun main() {
         if (str.length % 2 != 0) return 0
 
         val half = str.length / 2
-        return if (str.substring(0, half) == str.substring(half, half * 2)) l else 0
+        return if (str.take(half) == str.substring(half, half * 2)) l else 0
     }
 
     fun count2(l: Long): Long {
